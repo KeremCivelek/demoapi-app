@@ -10,7 +10,7 @@ permissions:
   packages: write
 
 env:
-  IMAGE_NAME: ghcr.io/${{ toLower(github.repository_owner) }}/demoapi
+  IMAGE_NAME: ghcr.io/keremcivelek/demoapi
 
 jobs:
   build:
